@@ -11,7 +11,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-img=[r'C:\Users\alexb\Desktop\TSIM\Laborator 1-20260226\scintigrafia.jpg',r'C:\Users\alexb\Desktop\TSIM\Laborator 1-20260226\test.png']
+img=[r'C:\Users\alexb\Desktop\Piese_PCLP\Medical-image-processing-intro\scintigrafia.jpg',r'C:\Users\alexb\Desktop\Piese_PCLP\Medical-image-processing-intro\test.png']
   
 def rgb2gri(img_in, format):
     img_in=img_in.astype('float')
